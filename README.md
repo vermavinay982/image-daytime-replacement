@@ -7,9 +7,11 @@ A short tool, to change the daylight of the image based on choice of user - day,
 ```
 
 Night
+
 ![Image](assets/op1.png)
 
 Evening
+
 ![Image](assets/op2.png)
 
 ## Further Options
