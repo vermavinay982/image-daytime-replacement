@@ -3,9 +3,14 @@ A short tool, to change the daylight of the image based on choice of user - day,
 
 ## Usage
 ```sh
- python .\change_daytime.py -i .\input.jpg -d night --plot
+# to ensure required packages are installed
+pip install -r requirements.txt
+
+# run the script in cli
+python .\change_daytime.py -i .\input.jpg -d night --plot
 ```
 
+## Output Samples
 Night
 
 ![Image](assets/op1.png)
@@ -36,3 +41,7 @@ options:
                         Root folder for assets
   --plot                Flag to plot and visualize the image after processing
 ```
+
+- License: MIT
+- Author: [Vinay Kumar Verma](mailto:vermavinay982@gmail.com) 
+- Maintainer: [Vinay Kumar Verma](mailto:vermavinay982@gmail.com) 
